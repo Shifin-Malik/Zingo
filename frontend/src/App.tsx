@@ -1,13 +1,14 @@
 
-import Home from "./components/home";
+
 import { Route, Routes } from "react-router-dom";
+import GetStartedPage from "./pages/GetStartedPage";
 
 
 function App() {
   return (
     <div>
       <Routes>
-        <Route path="/Zingo" element={<Home />} />
+        <Route path="/Zingo" element={<GetStartedPage />} />
       </Routes>
     </div>
   );
