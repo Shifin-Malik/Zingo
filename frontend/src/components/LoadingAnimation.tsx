@@ -30,7 +30,7 @@ function LoadingAnimation() {
             alt="Loading Icon"
             className="w:32 md:w-60 h-32 md:h-60 object-contain"
           />
-          <h1 className="text-3xl text-gray-500 font-bold">Zingo</h1>
+          <h1 className="text-3xl text-gray-500 font-bold">Zingo Chat-App</h1>
         </div>
       ) : (
         <GetStarted />
