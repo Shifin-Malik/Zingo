@@ -4,8 +4,8 @@ import { TextAnimate } from "./magicui/text-animate";
 
 function GetStarted() {
   return (
-    <div className="flex flex-col h-screen items-center justify-center w-full px-14">
-      <h1 className="text-2xl md:text-3xl font-extrabold text-center leading-tight drop-shadow-lg">
+    <div className="flex flex-col h-screen items-center justify-center w-full px-7">
+      <h1 className="text-xl md:text-3xl font-extrabold text-center leading-tight drop-shadow-lg">
         <TextAnimate animation="blurInUp" by="character" once>
         Stay connected anytime, anywhere  with ease!
         </TextAnimate>
@@ -14,6 +14,7 @@ function GetStarted() {
         <OrbitingCircles />
         <OrbitingCirclesDemo />
       </div>
+      
     </div>
   );
 }
