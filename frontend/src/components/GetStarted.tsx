@@ -4,7 +4,7 @@ import { TextAnimate } from "./magicui/text-animate";
 
 function GetStarted() {
   return (
-    <div className="flex flex-col h-screen items-center justify-center w-full px-7">
+    <div className="flex flex-col h-screen items-center justify-center w-full px-4">
       <h1 className="text-xl md:text-3xl font-extrabold text-center leading-tight drop-shadow-lg">
         <TextAnimate animation="blurInUp" by="character" once>
         Stay connected anytime, anywhere  with ease!

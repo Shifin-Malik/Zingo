@@ -17,13 +17,7 @@ export function OrbitingCirclesDemo() {
         <Icons.avatar4/>
         <Icons.avatar5/>
       </OrbitingCircles>
-      <OrbitingCircles iconSize={20} radius={50} reverse speed={3}>
-      <Icons.avatar1 />
-        <Icons.avatar2 />
-        <Icons.avatar3 />
-        <Icons.avatar4/>
-        <Icons.avatar5/>
-      </OrbitingCircles>
+     
       
     </div>
   );
