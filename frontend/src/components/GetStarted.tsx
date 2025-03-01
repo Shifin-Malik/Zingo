@@ -1,6 +1,8 @@
 import { OrbitingCircles } from "./magicui/orbiting-circles";
 import { OrbitingCirclesDemo } from "./OrbitingCirclesDemo";
 import { TextAnimate } from "./magicui/text-animate";
+import { Button } from "./ui/button";
+import { Link } from "react-router-dom";
 
 function GetStarted() {
   return (
@@ -14,7 +16,9 @@ function GetStarted() {
         <OrbitingCircles />
         <OrbitingCirclesDemo />
       </div>
-      
+     <Link to="/home">
+     <Button className="bg-orange-400 hover:bg-orange-500 w-40 h-10">Get Started</Button>
+     </Link>
     </div>
   );
 }
